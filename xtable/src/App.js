@@ -1,12 +1,10 @@
 import React from "react";
-import Modal from "./components/Modal.jsx";
+import Table from "./components/Table.jsx";
 
 function App() {
-  return (
-    <>
-      <Modal />
-    </>
-  );
+  return <>
+    <Table />
+  </>;
 }
 
 export default App;
